@@ -15,7 +15,7 @@ pip install streamlit PyPDF2 langchain sentence-transformers[train]==3.0.1 torch
 ## How to Run the Code
 #### 1. Clone the Repository
 ```
-git clone https://github.com/nihilisticneuralnet/computermarkethub.git
+git clone https://github.com/nihilisticneuralnet/AI-chatbot-.git
 cd <repository_directory>
 ```
 #### 2. Insert your tokens
