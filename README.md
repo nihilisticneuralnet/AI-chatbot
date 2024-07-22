@@ -20,8 +20,8 @@ cd <repository_directory>
 ```
 #### 2. Insert your tokens
 
-replace ```st.secrets['hf_token'] ``` with your hugging face api key: *SignUp to [huggingface](https://huggingface.co/) and make sure the permission for the api is* **WRITE**   \
-replace ```st.secrets['LLM_api_key'] ``` with your AI21 api key: *SignUp to create a [AI21](https://www.ai21.com/)*
+replace ```st.secrets['hf_token'] ``` with your hugging face api key: *SignUp in [huggingface](https://huggingface.co/) and make sure the permission for the api key is* **WRITE**   \
+replace ```st.secrets['LLM_api_key'] ``` with your AI21 api key: *SignUp in [AI21](https://www.ai21.com/) to create the api key*
 
 
 #### 3. Run the Streamlit App
