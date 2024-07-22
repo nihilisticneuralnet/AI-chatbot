@@ -9,9 +9,9 @@ import streamlit as st
 if 'conversation_history' not in st.session_state:
     st.session_state.conversation_history = []
 
-hf_token ='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' #st.secrets['hf_token']
+hf_token =st.secrets['hf_token'] # insert hf api key
 
-LLM_api_key='dwPz80ndhELVGZNKroPRcnOxBoAYv5Va' #st.secrets['LLM_api_key']
+LLM_api_key=st.secrets['LLM_api_key'] # insert ai21 api key
 
 st.title('AI Chatbot')
 
